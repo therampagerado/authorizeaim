@@ -42,9 +42,10 @@ class AuthorizeAIM extends PaymentModule
     {
         $this->name = 'authorizeaim';
         $this->tab = 'payments_gateways';
-        $this->version = '1.5.8';
+        $this->version = '2.0.0';
         $this->author = 'thirty bees';
         $this->aimAvailableCurrencies = ['USD', 'AUD', 'CAD', 'EUR', 'GBP', 'NZD'];
+        $this->bootstrap = true;
 
         parent::__construct();
 
