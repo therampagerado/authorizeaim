@@ -24,10 +24,9 @@
 <div class="authorizeaim-wrapper panel">
 	<a href="http://reseller.authorize.net/application/prestashop/" class="authorizeaim-logo" target="_blank"><img src="{$module_dir}img/logo_authorize.png" alt="Authorize.net" border="0"/></a>
 	<p class="authorizeaim-intro">{l s='Start accepting payments through your PrestaShop store with Authorize.Net, the pioneering provider of ecommerce payment services.  Authorize.Net makes accepting payments safe, easy and affordable.' mod='authorizeaim'}</p>
-	<p class="authorizeaim-sign-up">{l s='Do you need PrestaShop support? ' mod='authorizeaim'}<a href="https://dh42.com/prestashop/prestashop-support" target="_blank">{l s='Sign Up Now' mod='authorizeaim'}</a></p>
 	<div class="authorizeaim-content">
 		<div class="authorizeaim-leftCol">
-			<h3>{l s='Why Choose Authorize.Net?' mod='authorizeaim'}</h3>
+			<h3>&nbsp;&nbsp;&nbsp;{l s='Why Choose Authorize.Net?' mod='authorizeaim'}</h3>
 			<ul>
 				<li>{l s='Leading payment gateway since 1996 with 400,000+ active merchants' mod='authorizeaim'}</li>
 				<li>{l s='Multiple currency acceptance' mod='authorizeaim'}</li>
