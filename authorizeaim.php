@@ -100,12 +100,12 @@ class AuthorizeAIM extends PaymentModule
     /**
      * @param array $params
      *
-     * @return string|void
+     * @return string
      */
     public function hookOrderConfirmation($params)
     {
         if ($params['objOrder']->module != $this->name) {
-            return;
+            return '';
         }
 
         if ($params['objOrder']->getCurrentState() != Configuration::get('PS_OS_ERROR')) {
