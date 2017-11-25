@@ -1,0 +1,25 @@
+module_name: Authorize.net
+compatible_versions: 1.0.0+
+author: thirty bees
+category: payment
+localization:
+- US
+- CA
+tags:
+- authorize
+- auth.net
+- authortize.net
+- payment module
+- authorizeaim
+description_short: The thirty bees Authorize.net module allows your site to accept payments using the Authorize.net payment gateway.
+description: description.md
+images:
+- image-1.png
+- image-2.png
+license: AFL
+php_version:
+- 5.4
+- 5.5
+- 5.6
+- 7.0
+- 7.1
