@@ -46,6 +46,7 @@ class AuthorizeAIM extends PaymentModule
         $this->author = 'thirty bees';
         $this->aimAvailableCurrencies = ['USD', 'AUD', 'CAD', 'EUR', 'GBP', 'NZD'];
         $this->bootstrap = true;
+        $this->need_instance = false;
 
         parent::__construct();
 
